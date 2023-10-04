@@ -91,5 +91,8 @@ for (let k of a) console.log(k);
 //FOR IN IMPRIME LAS KEYS - LA SALIDA TENDRIA QUE SER 0 1 2
 for(let id in a) console.log(id);
 
-document.write("<br>hola");
+//Con esta linea abrimos una ventana con una casilla y el valor que escribes queda almacenado 
+// la variable respuesta. 
 let respuesta=window.prompt("Escribe tu nombre")
+//Este imprime el codigo en el html y la variable respuesta que antes hemos almacenado antes. 
+document.write("<br>hola, <strong>"+respuesta+"</strong>");
